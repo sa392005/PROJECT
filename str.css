@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.frame1 {
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    background-image: url(girl.jpg);
+    background-size: cover;
+    border-radius: 25px;
+    
+}
+
+.frame2 {
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    background-image: url(computer.jpeg);
+    background-size: cover;
+    border-radius: 25px;
+}
+
+
+
+.name{
+    height: 50px;
+    width: 400px;
+    background-color: aliceblue;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    
+}
+.computer{
+    height: 50px;
+    width: 400px;
+    background-color: aliceblue;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.btn1{
+    border: black 3px solid;
+    width: 100px;
+    height: 5vh;
+    position: relative;
+    top:88% ;
+    left: 37%;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 25px;
+    
+}
+
+.img1{
+    position: absolute;
+    bottom: 30vh;
+    left: 42vw;
+    animation: move ease-in 0.8s;
+    
+}
+.img1:hover{
+    scale: 1.5;
+}
+
+@keyframes move{
+    0%{bottom:0vh}
+    50%{bottom:35vh}
+    75%{bottom:25vh;}
+    100%{bottom: 30vh;}
+}
+.span2{
+    font-weight: 800;
+    font-size: 60px;
+    position:absolute;
+    top:36vh;
+    left:42vw;
+    color:green;
+    display: none;
+    
+}
+
+.span3{
+    font-weight: 800;
+    font-size: 49px;
+    position:absolute;
+    top:36vh;
+    left:39vw;
+    color:RED;
+    display: none;
+    
+}
